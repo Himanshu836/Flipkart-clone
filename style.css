@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border:border-box;
+}
+.navbar{
+    height: 80px;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box-1{
+    height: 80px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-image: url("/pics/pngwing.com.png");
+    height: 80px;
+    width: 100%;
+    background-size:cover;
+    /* background-repeat: no-repeat; */
+}
+.nav-search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-icon{
+    height: 32px;
+    width: 50px;
+    background-color: rgba(217, 232, 247, 0.911);
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.nav-search input{
+    height: 30px;
+    width: 500px;
+    font-weight:500;
+    font-size: medium;
+    background-color: rgba(217, 232, 247, 0.911);
+    /* padding-left: 5px; */
+}
+.nav-search input:focus{
+    outline: none;
+}
+.search-input{
+    border:none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-icon{
+    padding-right: 7px;
+    font-weight: 500;
+    font-size:large;
+}
+.login span{
+    font-weight: 500;
+    font-size:large;
+}
+.main-section{
+    margin-left: 60px;
+    margin-top: 10px;
+    /* width: 100%; */
+}
+.line{
+ height: 10px;
+ background-color: rgba(217, 232, 247, 0.911);
+ width: 100%;
+
+}
+.main-card{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+.box{
+    height: 150px;
+    width: 150px;
+    /* background-color: black; */
+}
+.box-image{
+    height: 100px;
+    width: 100%;
+    background-repeat: no-repeat;
+
+}
+.second-main{
+    margin-top: 5px;
+    /* margin-left: 60px; */
+}
+h3{
+    font-size:1.5rem;
+    font-weight: 500;
+}
+.Smartphones{
+    /* height: 400px;
+    width: 400px; */
+    width: 100%;
+    margin-top: 2%;
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    
+}
+.phones{
+    height: 250px;
+    width: 200px; 
+}
+.phones .image{
+    height: 190px;
+    width: 70%; 
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-color: black; */
+    
+}
+.phones .image-box{
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.phone-details{
+    /* height: 10px; */
+    /* margin-top: 1%; */
+    justify-content: center;
+    text-align: center; 
+}
+.border{
+     border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 7px;
+}
+.span-1{
+    font-weight: 500;
+    font-size: 1rem;
+}
+.span-2{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.image-details{
+    height: 200px;
+    width:400px;
+    margin: 5px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* padding: 5px; */
+}
+.third-main{
+    display: flex;
+    justify-content: center; 
+     align-items: center;
+    margin-top: 10px;
+}
+.footer{
+    margin-top: 30px;
+    height: 280px;
+    /* width:; */
+    background-color: rgb(36, 35, 35);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .head{
+    /* padding-top: 20px; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding-left: 40px;
+}
+.footer .head span{
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: rgb(117, 116, 115);
+}
+.footer .body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .body ul li:hover{
+    /* border-bottom: 1px solid rgb(117, 116, 115); */
+    text-decoration: underline;
+}p
+.footer .body ul{
+    /* list-style: none; */
+    padding-top: 20px;
+}
+.footer .body ul li{
+    padding: 3px;
+    list-style: none;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+.footer .main-body-3{
+    margin-top: 30px;
+}
+.footer .main-body-2 .head-2{
+    padding-left: 40px;
+}
+.footer .main-body-3 .head-3{
+    padding-left: 40px;
+}
+.head-3 span{
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: rgb(117, 116, 115); 
+}
+.head-2 span{
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: rgb(117, 116, 115);
+}
+
+.footer .body-2 ul{
+    list-style: none;
+    padding-top: 20px;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+.footer .body-3 ul{
+    list-style: none;
+    /* padding-top: 20px; */
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+.footer .body-3 ul li{
+    padding: 1px;
+}
+.footer .body-2 ul li{
+    padding: 1px;
+}
+.vertical-line{
+    height: 210px;
+    width: 1px;
+    background-color:rgb(117, 116, 115);
+    margin-left: 20px;
+    margin-top: 50px;    
+}
+.body-3{
+    padding-top: 20px;
+}
+.socials{
+    margin-top: 10px;
+    /* display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */ 
+    margin-left: 40px;
+}
+.social-text{
+    color: rgb(117, 116, 115);
+    font-size: small;
+}
+.socials .icons{
+    margin-top: 10px;
+    /* padding: 13px; */
+}
+.socials .icon{
+    padding-left: 10px;
+}
+
+.line-last{
+    /* margin-top: 10px; */
+    height: 50px;
+    width: 100%;
+    background-color:rgb(36, 35, 35);
+}
+.line-last .white-line{
+    height: 1px;
+    width: 100%;
+    background-color:rgb(117, 116, 115);
+}
+.line-last .stop-flex{
+    /* align-self: auto; 
+    flex: 0 0 auto;
+    justify-self: auto; */
+    /* display:block; */
+    /* flex: none; */
+    color: white;
+}
+.start-flex{
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    margin-top:15px;
+    color: white;
+}
+.seller{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seller .flipkart{
+    font-size: 12px;
+    /* color: black; */
+}
+.seller p{
+    font-size: 13px;
+}
+ .footer-icons{
+    /* height: 1px; */
+    /* background-color:yellow; */
+    font-size: 10px;
+    margin-right: 5px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-header{
+    height: 50px;
+    width: 100%;
+    background-color: blue;
+}
+.login-logo{
+    height: 50px;
+    width: 80px;
+}
+.logo-2{
+    background-image: url("/pics/flipkart-plus_8d85f4.png");
+    height: 50px;
+    width: 100%;
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    /* background-color: firebrick; */
+    /* text-align: center; */
+}
+.search input{
+    margin-left: 10px;
+    height: 30px;
+    width: 500px;
+    font-weight:500;
+    font-size: 13px;
+    /* background-color: rgba(217, 232, 247, 0.911);  */
+    border: none;
+    padding-left: 15px; 
+    /* border-right: none; */
+    /* border-radius: 5px; */
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.search input:focus{
+    outline: none;
+}
+
+.login-searchicon{
+    height: 32.5px;
+    width: 40px;
+    background-color: white;
+    /* border-left: none; */
+    color: blue;border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.login-button{
+    margin-left: 10px;
+}
+.login-button button{
+    height: 30px;
+    width: 120px;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+}
+.login-button button span{
+    color: blue;
+    font-size: 17px;
+    font-weight: 500;
+}
